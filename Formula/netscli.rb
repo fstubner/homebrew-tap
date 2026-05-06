@@ -13,28 +13,28 @@
 class Netscli < Formula
   desc "Network scanner with CLI, TUI, desktop app, and MCP server"
   homepage "https://netscli.com"
-  version "0.2.5"
+  version "0.2.6"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/fstubner/netscli/releases/download/v#{version}/netscli-macos-aarch64"
-      sha256 "2a34d475420bed4181b52decd0d2a43f0c8bf638d6ed14e529dc1f4fd389d70b"
+      sha256 "66935b1b627e5e58d7d24ef92f8153381dcbbf06ff79807314ddce47a73a7907"
     end
     on_intel do
       url "https://github.com/fstubner/netscli/releases/download/v#{version}/netscli-macos-x86_64"
-      sha256 "4c3041d99291a9778e6b87e0f47d041cd9044fcd1b762ddb80dd9dac5fed2866"
+      sha256 "4e136a0b3fd287d7a86f70983c1be5bb4bd56f6c9d4f7b4da73e7bad23b644a3"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/fstubner/netscli/releases/download/v#{version}/netscli-linux-aarch64"
-      sha256 "9673312f500dbe55e1ab90961c115aff3f52490c7125322378f6df96bc5dbd35"
+      sha256 "26f3d174b533d826deff96dc095b2c6067029baaecf757aef2fc227fa846d924"
     end
     on_intel do
       url "https://github.com/fstubner/netscli/releases/download/v#{version}/netscli-linux-x86_64"
-      sha256 "08f3fff593ed82a10d6abc53435baaf51e63e3d9c48af90254257e08071f751d"
+      sha256 "b3e7c97722982a1b7538866d05f7b51094a8b80fd049508e7e3f1f840e40e730"
     end
   end
 
