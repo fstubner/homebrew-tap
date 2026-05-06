@@ -5,14 +5,14 @@
 # netscli's packaging/homebrew/Casks/netscli.rb.
 
 cask "netscli" do
-  version "0.2.5"
+  version "0.2.6"
 
   on_arm do
-    sha256 "89493f2d6e23dfebc2feeb2c3e9badc025adcab882d0a6639990e2b030eb6875"
+    sha256 "faf62fe3f56709b46865a6f35b5bcda4db6a37c4395eb904d1b73214f497e69e"
     url "https://github.com/fstubner/netscli/releases/download/v#{version}/netscli-gui-macos-aarch64.dmg"
   end
   on_intel do
-    sha256 "096b7d3aee5d096d4ac4f947554147b34bb82998c9fa50c8705aa8f04e07c3bb"
+    sha256 "28354f51e623f9be5a875c6284df9ee1207ae182e0667293475d485a1bb41675"
     url "https://github.com/fstubner/netscli/releases/download/v#{version}/netscli-gui-macos-x86_64.dmg"
   end
 
